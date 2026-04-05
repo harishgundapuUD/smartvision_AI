@@ -1,0 +1,5 @@
+tensorflow
+ultralytics
+matplotlib
+pyyaml
+numpy
