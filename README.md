@@ -13,7 +13,7 @@ This repository provides a structured pipeline for:
 - Evaluation
 - Inference
 
-It is designed to be modular, scalable, and easy to extend for various computer vision tasks.
+The main entry point of the project is `main.py`, which orchestrates the overall workflow.
 
 ---
 
@@ -56,15 +56,16 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-### Train the model
+### Run the complete pipeline (recommended)
+
+```bash
+python main.py
+```
+
+### Optional: Run individual modules
 
 ```bash
 python src/training.py
-```
-
-### Run inference
-
-```bash
 python src/inference.py
 ```
 
@@ -81,6 +82,7 @@ smartvision_AI/
 │   ├── preprocessing.py
 │   ├── training.py
 │   ├── inference.py
+│── main.py            # Entry point
 │── requirements.txt
 │── README.md
 ```
