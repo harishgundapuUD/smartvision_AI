@@ -1,0 +1,14 @@
+artifact_uri: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/8caacac9623146d084075edde92e7f52/artifacts
+end_time: 1778395958862
+entry_point_name: ''
+experiment_id: '547584630703198831'
+lifecycle_stage: active
+run_id: 8caacac9623146d084075edde92e7f52
+run_name: mobilenetv2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778395340010
+status: 3
+tags: []
+user_id: root

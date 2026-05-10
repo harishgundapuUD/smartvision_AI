@@ -1,0 +1,14 @@
+artifact_uri: file:////content/drive/MyDrive/smartvision/models/detection/mlruns/403637734905371164/ba0a5e89f8f8457b80cbfe2f85372e82/artifacts
+end_time: 1778410724078
+entry_point_name: ''
+experiment_id: '403637734905371164'
+lifecycle_stage: active
+run_id: ba0a5e89f8f8457b80cbfe2f85372e82
+run_name: fun-midge-142
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778410723701
+status: 3
+tags: []
+user_id: root

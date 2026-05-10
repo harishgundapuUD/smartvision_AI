@@ -1,0 +1,10 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/models/m-2fb4637ce03d4533a62e8142788a8233/artifacts
+creation_timestamp: 1778394611665
+experiment_id: '547584630703198831'
+last_updated_timestamp: 1778394628240
+model_id: m-2fb4637ce03d4533a62e8142788a8233
+model_type: null
+name: vgg16
+source_run_id: a30e33086c534f07bb73064ae7ef8b91
+status: 2
+status_message: null

@@ -1,0 +1,8 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831
+creation_time: 1778392714064
+experiment_id: '547584630703198831'
+last_update_time: 1778392714064
+lifecycle_stage: active
+name: classification
+trace_location: null
+workspace: default

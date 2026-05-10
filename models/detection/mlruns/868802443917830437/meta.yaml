@@ -1,0 +1,8 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/detection/mlruns/868802443917830437
+creation_time: 1778410550369
+experiment_id: '868802443917830437'
+last_update_time: 1778410550369
+lifecycle_stage: active
+name: yolo_detection
+trace_location: null
+workspace: default

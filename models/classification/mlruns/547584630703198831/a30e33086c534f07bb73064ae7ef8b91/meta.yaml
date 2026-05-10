@@ -1,0 +1,14 @@
+artifact_uri: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/a30e33086c534f07bb73064ae7ef8b91/artifacts
+end_time: 1778394628321
+entry_point_name: ''
+experiment_id: '547584630703198831'
+lifecycle_stage: active
+run_id: a30e33086c534f07bb73064ae7ef8b91
+run_name: vgg16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778392722257
+status: 3
+tags: []
+user_id: root

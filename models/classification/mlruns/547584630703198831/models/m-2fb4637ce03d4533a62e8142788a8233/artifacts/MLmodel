@@ -1,0 +1,22 @@
+artifact_path: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/models/m-2fb4637ce03d4533a62e8142788a8233/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.12.13
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.20.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.12.0
+model_id: m-2fb4637ce03d4533a62e8142788a8233
+model_size_bytes: 214761918
+model_uuid: m-2fb4637ce03d4533a62e8142788a8233
+prompts: null
+run_id: a30e33086c534f07bb73064ae7ef8b91
+utc_time_created: '2026-05-10 06:30:12.246679'

@@ -1,0 +1,14 @@
+artifact_uri: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/bebd14a3e1664284a2a5c73a72107eec/artifacts
+end_time: 1778396342567
+entry_point_name: ''
+experiment_id: '547584630703198831'
+lifecycle_stage: active
+run_id: bebd14a3e1664284a2a5c73a72107eec
+run_name: efficientnetb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778395961186
+status: 3
+tags: []
+user_id: root

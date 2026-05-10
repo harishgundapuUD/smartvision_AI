@@ -1,0 +1,70 @@
+{
+    "models": {
+        "classification": {
+            "vgg16": {
+                "run_id": "a30e33086c534f07bb73064ae7ef8b91",
+                "architecture": "VGG16",
+                "train_accuracy": 0.5807692408561707,
+                "train_loss": 1.5197547674179077,
+                "val_accuracy": 0.34871795773506165,
+                "val_loss": 2.4430415630340576,
+                "test_accuracy": 0.22564102709293365,
+                "test_loss": 2.5644946098327637,
+                "custom_score": -0.046557025611400626,
+                "learning_rate": 0.0001,
+                "epochs": 30,
+                "batch_size": 32,
+                "expected_accuracy": "80-85%",
+                "timestamp": "2026-05-10T06:30:28.335286"
+            },
+            "resnet50": {
+                "run_id": "fabec20f232c400e8ecb7c7db1b72409",
+                "architecture": "ResNet50",
+                "train_accuracy": 0.38626372814178467,
+                "train_loss": 2.35713529586792,
+                "val_accuracy": 0.1358974426984787,
+                "val_loss": 3.170344829559326,
+                "test_accuracy": 0.12051282078027725,
+                "test_loss": 3.1677186489105225,
+                "custom_score": -0.32996639832854274,
+                "learning_rate": 1e-05,
+                "epochs": 30,
+                "batch_size": 32,
+                "expected_accuracy": "85-90%",
+                "timestamp": "2026-05-10T06:42:18.810617"
+            },
+            "mobilenetv2": {
+                "run_id": "8caacac9623146d084075edde92e7f52",
+                "architecture": "MobileNetV2",
+                "train_accuracy": 0.8071428537368774,
+                "train_loss": 0.7701941132545471,
+                "val_accuracy": 0.41794872283935547,
+                "val_loss": 1.9729282855987549,
+                "test_accuracy": 0.3692307770252228,
+                "test_loss": 2.2160565853118896,
+                "custom_score": 0.12515793740749356,
+                "learning_rate": 0.0001,
+                "epochs": 30,
+                "batch_size": 32,
+                "expected_accuracy": "82-87%",
+                "timestamp": "2026-05-10T06:52:38.875265"
+            },
+            "efficientnetb0": {
+                "run_id": "bebd14a3e1664284a2a5c73a72107eec",
+                "architecture": "EfficientNetB0",
+                "train_accuracy": 0.03901099041104317,
+                "train_loss": 3.919477939605713,
+                "val_accuracy": 0.03846153989434242,
+                "val_loss": 3.3016157150268555,
+                "test_accuracy": 0.03846153989434242,
+                "test_loss": 3.3010246753692627,
+                "custom_score": -0.4295539110898972,
+                "learning_rate": 1e-05,
+                "epochs": 30,
+                "batch_size": 32,
+                "expected_accuracy": "88-93%",
+                "timestamp": "2026-05-10T06:59:02.581775"
+            }
+        }
+    }
+}

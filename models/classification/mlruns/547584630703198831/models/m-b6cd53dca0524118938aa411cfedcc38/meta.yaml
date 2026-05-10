@@ -1,0 +1,10 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/models/m-b6cd53dca0524118938aa411cfedcc38/artifacts
+creation_timestamp: 1778395947641
+experiment_id: '547584630703198831'
+last_updated_timestamp: 1778395958807
+model_id: m-b6cd53dca0524118938aa411cfedcc38
+model_type: null
+name: mobilenetv2
+source_run_id: 8caacac9623146d084075edde92e7f52
+status: 2
+status_message: null

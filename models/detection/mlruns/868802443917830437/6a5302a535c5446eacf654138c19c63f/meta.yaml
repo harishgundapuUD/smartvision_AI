@@ -1,0 +1,14 @@
+artifact_uri: file:////content/drive/MyDrive/smartvision/models/detection/mlruns/868802443917830437/6a5302a535c5446eacf654138c19c63f/artifacts
+end_time: 1778410716269
+entry_point_name: ''
+experiment_id: '868802443917830437'
+lifecycle_stage: active
+run_id: 6a5302a535c5446eacf654138c19c63f
+run_name: yolo_v8_detection
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778410551118
+status: 3
+tags: []
+user_id: root

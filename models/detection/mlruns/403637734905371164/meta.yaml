@@ -1,0 +1,8 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/detection/mlruns/403637734905371164
+creation_time: 1778410562195
+experiment_id: '403637734905371164'
+last_update_time: 1778410562195
+lifecycle_stage: active
+name: models/detection
+trace_location: null
+workspace: default

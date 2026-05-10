@@ -1,0 +1,10 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/models/m-56e9358912bc4001a2baec4ea9edfee1/artifacts
+creation_timestamp: 1778396329245
+experiment_id: '547584630703198831'
+last_updated_timestamp: 1778396342505
+model_id: m-56e9358912bc4001a2baec4ea9edfee1
+model_type: null
+name: efficientnetb0
+source_run_id: bebd14a3e1664284a2a5c73a72107eec
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/models/m-2920bd456c084eb5a447edee474d8e1d/artifacts
+creation_timestamp: 1778395324171
+experiment_id: '547584630703198831'
+last_updated_timestamp: 1778395338723
+model_id: m-2920bd456c084eb5a447edee474d8e1d
+model_type: null
+name: resnet50
+source_run_id: fabec20f232c400e8ecb7c7db1b72409
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:////content/drive/MyDrive/smartvision/models/classification/mlruns/547584630703198831/fabec20f232c400e8ecb7c7db1b72409/artifacts
+end_time: 1778395338797
+entry_point_name: ''
+experiment_id: '547584630703198831'
+lifecycle_stage: active
+run_id: fabec20f232c400e8ecb7c7db1b72409
+run_name: resnet50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778394630173
+status: 3
+tags: []
+user_id: root
