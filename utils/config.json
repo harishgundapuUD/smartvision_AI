@@ -1,0 +1,150 @@
+{
+  "dataset_dirs": {
+    "classification": "dataset/classification",
+    "detection": "dataset/detection"
+  },
+
+  "dl_model_dirs": {
+    "base_dir": "models",
+    "classification": "classification",
+    "detection": "detection"
+  },
+
+  "training": {
+    "epochs": 30,
+    "batch_size": 32
+  },
+
+  "models": {
+    "vgg16": {
+      "enabled": true,
+
+      "architecture": "VGG16",
+
+      "img_size": 224,
+
+      "learning_rate": 0.0001,
+
+      "num_classes": 26,
+
+      "freeze_all": true,
+
+      "fine_tune": false,
+
+      "dropout_1": 0.5,
+      "dropout_2": 0.3,
+
+      "dense_units": [512, 256],
+
+      "augmentation": {
+        "rotation_range": 15,
+        "width_shift_range": 0.1,
+        "height_shift_range": 0.1,
+        "zoom_range": 0.1,
+        "horizontal_flip": true
+      },
+
+      "expected_accuracy": "80-85%"
+    },
+
+    "resnet50": {
+      "enabled": true,
+
+      "architecture": "ResNet50",
+
+      "img_size": 224,
+
+      "learning_rate": 0.00001,
+
+      "num_classes": 26,
+
+      "freeze_all": false,
+
+      "fine_tune": true,
+
+      "unfreeze_last_layers": 20,
+
+      "global_average_pooling": true,
+
+      "dense_units": [512],
+
+      "dropout_1": 0.4,
+
+      "augmentation": {
+        "rotation_range": 20,
+        "zoom_range": 0.2,
+        "horizontal_flip": true
+      },
+
+      "expected_accuracy": "85-90%"
+    },
+
+    "mobilenetv2": {
+      "enabled": true,
+
+      "architecture": "MobileNetV2",
+
+      "img_size": 224,
+
+      "learning_rate": 0.0001,
+
+      "num_classes": 26,
+
+      "freeze_all": true,
+
+      "fine_tune": false,
+
+      "global_average_pooling": true,
+
+      "dense_units": [256],
+
+      "dropout_1": 0.3,
+
+      "augmentation": {
+        "rotation_range": 10,
+        "zoom_range": 0.1,
+        "horizontal_flip": true
+      },
+
+      "optimize_for_inference": true,
+
+      "expected_accuracy": "82-87%"
+    },
+
+    "efficientnetb0": {
+      "enabled": true,
+
+      "architecture": "EfficientNetB0",
+
+      "img_size": 224,
+
+      "learning_rate": 0.00001,
+
+      "num_classes": 26,
+
+      "freeze_all": false,
+
+      "fine_tune": true,
+
+      "unfreeze_last_layers": 20,
+
+      "mixed_precision": true,
+
+      "batch_normalization": true,
+
+      "global_average_pooling": true,
+
+      "dense_units": [512],
+
+      "dropout_1": 0.4,
+
+      "augmentation": {
+        "rotation_range": 25,
+        "zoom_range": 0.25,
+        "horizontal_flip": true
+      },
+
+      "expected_accuracy": "88-93%"
+    }
+  }
+}

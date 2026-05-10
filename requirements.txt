@@ -1,0 +1,4 @@
+tensorflow
+mlflow
+ultralytics
+opencv-python
