@@ -185,6 +185,11 @@ for model_name, model_cfg in config["models"].items():
                                             zoom_range=aug_cfg.get("zoom_range", 0),
                                             horizontal_flip=aug_cfg.get("horizontal_flip", False)
                                         )
+    
+    class_names = list(train_generator.class_indices.keys())
+
+    with open("utils/class_names.json", "w") as f:
+        json.dump(class_names, f)
 
     val_test_datagen = ImageDataGenerator(rescale=1./255)
 
