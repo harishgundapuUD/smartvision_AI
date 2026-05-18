@@ -38,18 +38,27 @@ smartvision_AI/
 
 
 📦 Installation
+
+
 1️⃣ Clone the Repository
 git clone https://github.com/harishgundapuUD/smartvision_AI.git
 cd smartvision_AI
+
+
 2️⃣ Create Virtual Environment (Recommended)
 Windows
 python -m venv venv
 venv\Scripts\activate
+
+
 Linux / Mac
 python3 -m venv venv
 source venv/bin/activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
+
 ▶️ Running the Project
 
 Run the main application:
