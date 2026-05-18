@@ -30,7 +30,7 @@ smartvision_AI/
 ├── dataset/                # Training and testing datasets
 ├── problem_statement/      # Problem definition and documentation
 ├── src/                    # Source code modules
-├── main.py                 # Main execution script
+├── app.py                 # Main execution script
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
