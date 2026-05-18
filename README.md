@@ -33,6 +33,8 @@ smartvision_AI/
 ├── main.py                 # Main execution script
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
+```
+
 
 
 📦 Installation
@@ -52,7 +54,9 @@ pip install -r requirements.txt
 
 Run the main application:
 
-python main.py
+python -m streamlit run .\app.py
+
+
 
 🧠 Model Training
 
@@ -65,6 +69,8 @@ Configure training parameters
 Train model
 Evaluate performance
 Run inference
+
+
 📸 Computer Vision Applications
 
 Potential use cases:
@@ -79,17 +85,8 @@ AI-powered automation
 Install all dependencies using:
 
 pip install -r requirements.txt
-🤝 Contributing
 
-Contributions are welcome!
 
-Steps:
-
-Fork the repository
-Create a new branch
-Commit your changes
-Push to your branch
-Open a Pull Request
 📌 Future Improvements
 Add real-time webcam inference
 Improve model accuracy
@@ -97,11 +94,14 @@ Docker support
 Streamlit/Flask deployment
 Cloud deployment support
 Model optimization for edge devices
+
+
 📄 License
 
 This project is licensed under the MIT License.
 
+
+
 👨‍💻 Author
 
 Developed by Harish Gundapu
-```
